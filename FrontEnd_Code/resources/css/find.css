@@ -1,0 +1,79 @@
+body{
+  margin: 0;
+  background-color: rgb(124, 163, 151);
+}
+
+ul{
+  padding-top: 10px;
+  color: rgb(229, 237, 208);
+  font-size: 25px;
+  margin-left: 15%;
+  overflow: auto;
+}
+
+a:visited{
+  color: rgb(229, 237, 208);
+}
+
+table{
+
+  margin-left: 13%;
+  margin-top: 75px;
+  font-size: 20px;
+  border: 4px solid rgb(73, 102, 109);
+  border-collapse: collapse;
+  width: 75%;
+}
+
+th{
+
+  background-color: rgb(124, 163, 151);
+  color: rgb(229, 237, 208);
+  border: 2px solid rgb(73, 102, 109);
+  height: 50px;
+  padding: 10px;
+}
+
+td{
+  background-color: rgb(229, 237, 208);
+  color: rgb(124, 163, 151);
+  text-align: center;
+  border: 2px solid rgb(73, 102, 109);
+  height: 50px;
+  padding: 10px;
+
+}
+
+.navbar{
+
+  background-color: rgb(73, 102, 109);
+  height: 100px;
+  width: 100%;
+  align-self: center;
+  margin-top: 0;
+  text-align: center;
+  color: rgb(229, 237, 208);
+  font-size: 75px;
+
+}
+
+.message-c-why{
+  text-align: center;
+  padding-top: 50px;
+  font-size: 35px;
+  color: rgb(229, 237, 208);
+}
+
+.back{
+  text-decoration: none;
+  margin-top: -85px;
+  margin-left: 20px;
+  border: 6px solid rgb(229, 237, 208);
+  height: 50px;
+  width: 100px;
+  border-radius: 12px;
+  font-size: 35px;
+  color: rgb(229, 237, 208);
+  text-align: center;
+  padding-top: 6px;
+}
