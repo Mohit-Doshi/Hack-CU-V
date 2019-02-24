@@ -72,8 +72,7 @@ app.post('/rsvp', function(req, res){
 })
 
 app.post('/invite', function(req, res){
-  //"+19253362763", "+12066641191",
-  var numbersToMessage = ["+17024687497"]
+  var numbersToMessage = ["+19253362763", "+12066641191", "+17024687497"]
 
   numbersToMessage.forEach(function(number){
     var message = client.messages.create({
