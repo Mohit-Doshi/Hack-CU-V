@@ -1,0 +1,44 @@
+body{
+  margin: 0;
+  background-color: rgb(124, 163, 151);
+}
+
+.navbar{
+
+  background-color: rgb(73, 102, 109);
+  height: 100px;
+  width: 100%;
+  align-self: center;
+  margin-top: 0;
+  text-align: center;
+  color: rgb(229, 237, 208);
+  font-size: 75px;
+
+}
+
+.button-c{
+  text-align: center;
+  margin-top: 75px;
+}
+
+.button1{
+
+  background-image: url(Register.png);
+  border: 8px solid rgb(229, 237, 208);
+  height: 175px;
+  width: 175px;
+  display: inline-block;
+  margin-right: 150px;
+  border-radius: 12px;
+
+
+}
+
+.button2{
+  background-image: url(Find.png);
+  border: 8px solid rgb(229, 237, 208);
+  height: 175px;
+  width: 175px;
+  display: inline-block;
+  border-radius: 12px;
+}
