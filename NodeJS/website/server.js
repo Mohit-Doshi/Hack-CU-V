@@ -91,7 +91,7 @@ app.post('/invite', function(req, res){
 app.post('/timeLeft', function(req, res){
   const twiml = new MessagingResponse();
 
-  twiml.message('There are 6 days and 18 hours till your event starts!\n-PartyLink');
+  twiml.message(req.body.Body + 'There are 6 days and 18 hours till your event starts!\n-PartyLink');
 
   res.writeHead(200, {'Content-Type': 'text/xml'});
   res.end(twiml.toString());
