@@ -3,6 +3,18 @@ body{
   background-color: rgb(124, 163, 151);
 }
 
+ul{
+  padding-top: 10px;
+  color: rgb(229, 237, 208);
+  font-size: 25px;
+  margin-left: 15%;
+  overflow: auto;
+}
+
+a:visited{
+  color: rgb(229, 237, 208);
+}
+
 .navbar{
 
   background-color: rgb(73, 102, 109);
@@ -41,4 +53,41 @@ body{
   width: 175px;
   display: inline-block;
   border-radius: 12px;
+}
+
+.message-c{
+ text-align: center;
+ padding-top: 150px;
+ font-size: 50px;
+ color: rgb(229, 237, 208);
+}
+
+.message-c-why{
+  text-align: center;
+  padding-top: 50px;
+  font-size: 35px;
+  color: rgb(229, 237, 208);
+}
+
+.back{
+  text-decoration: none;
+  margin-top: -85px;
+  margin-left: 20px;
+  border: 6px solid rgb(229, 237, 208);
+  height: 50px;
+  width: 100px;
+  border-radius: 12px;
+  font-size: 35px;
+  color: rgb(229, 237, 208);
+  text-align: center;
+  padding-top: 6px;
+}
+
+.question{
+  color: rgb(229, 237, 208);
+  text-align: center;
+  margin-top: 100px;
+  font-size: 25px;
+
+
 }
