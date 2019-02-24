@@ -37,10 +37,10 @@ a:visited{
 
   background-image: url(Register.png);
   border: 8px solid rgb(229, 237, 208);
-  height: 175px;
-  width: 175px;
+  height: 200px;
+  width: 200px;
   display: inline-block;
-  margin-right: 150px;
+  margin-right: 100px;
   border-radius: 12px;
 
 
@@ -49,8 +49,8 @@ a:visited{
 .button2{
   background-image: url(Find.png);
   border: 8px solid rgb(229, 237, 208);
-  height: 175px;
-  width: 175px;
+  height: 200px;
+  width: 200px;
   display: inline-block;
   border-radius: 12px;
 }
